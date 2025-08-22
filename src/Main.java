@@ -35,6 +35,12 @@ public class Main {
         
         System.out.println("Heap - Siguiente: " + heap.extractMin());
         System.out.println("List - Siguiente: " + list.extractMin());
+
+        System.out.println("Heap - Siguiente: " + heap.extractMin());
+        System.out.println("List - Siguiente: " + list.extractMin());
+
+        System.out.println("Heap - Siguiente: " + heap.extractMin());
+        System.out.println("List - Siguiente: " + list.extractMin());
     }
     
     private static void testPerformanceComparison() {
@@ -43,7 +49,7 @@ public class Main {
         MinHeapTriage heap = new MinHeapTriage();
         SortedLinkedListTriage list = new SortedLinkedListTriage();
         
-        int numPatients = 100;
+        int numPatients = 1000;
         Patient[] patients = generateRandomPatients(numPatients);
         
         System.out.println("\nPrueba con " + numPatients + " pacientes:");

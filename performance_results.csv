@@ -1,9 +1,0 @@
-operation,structure,time_ms,patient_count,avg_time_per_op_ns
-insert,MinHeap,0.180625,1000,180
-insert,SortedLinkedList,1.746458,1000,1746
-insert,MinHeap,0.053990,626,86.25
-extract,MinHeap,0.200880,180,1116.00
-search,MinHeap,0.413663,94,4400.67
-insert,SortedLinkedList,0.467990,625,748.78
-extract,SortedLinkedList,0.015004,191,78.55
-search,SortedLinkedList,0.285083,84,3393.85
