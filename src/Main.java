@@ -46,9 +46,7 @@ public class Main {
     private static void testPerformanceComparison() {
         System.out.println("\n\n--- Comparación de Rendimiento ---");
         
-        int[] sizes = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
-        
-        for (int numPatients : sizes) {
+        for (int numPatients = 100; numPatients <= 1000; numPatients += 100) {
             MinHeapTriage heap = new MinHeapTriage();
             SortedLinkedListTriage list = new SortedLinkedListTriage();
             
